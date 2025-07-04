@@ -12,7 +12,7 @@ sudo apt install python3-pygame
 
 > **Verify:**
 > ~~~bash
-> python - <<'PY'
+> python3 - <<'PY'
 > import pygame, sys
 > print("pygame version:", pygame.version.ver)
 > PY
@@ -53,7 +53,7 @@ sys.exit()
 Run it:
 
 ~~~bash
-python hello_pygame.py
+python3 hello_pygame.py
 ~~~
 
 You should get a blank window titled **Hello, Pygame!** that closes cleanly.
